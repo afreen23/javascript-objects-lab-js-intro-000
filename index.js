@@ -13,3 +13,7 @@ function deleteFromObjectByKey(object,key) {
   var newobj=Object.assign({},object[key]);
   return newobj;
 }
+
+function destructivelyDeleteFromObjectByKey(object,key) {
+  
+}
